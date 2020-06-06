@@ -1,6 +1,5 @@
 import cv2
 import os
-from PIL import Image
 import numpy as np
 
 class ObjectRemoval:
