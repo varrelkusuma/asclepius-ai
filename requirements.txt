@@ -6,3 +6,4 @@ Pillow==4.1.1
 tensorflow==2.1.0
 gunicorn==19.7.1
 keras==2.1.5
+Cython==0.22
