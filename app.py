@@ -4,8 +4,6 @@ from flask import Flask, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import argparse
 import imutils
 import pickle
 import cv2
