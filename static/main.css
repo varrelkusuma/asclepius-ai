@@ -1,9 +1,115 @@
-.center-container {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+main {
+  margin: 0 auto;
+  width: 85%;
+  font-family: 'Slabo 27px', serif;
 }
- 
+
+.description {
+  margin: 0 auto;
+  width: 50%;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #50D399;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ED5151;
+  transition: 0.4s;
+}
+
 .active {
-  border: 5px solid red;
+  background-color: #32A873;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 16px;
+  margin-bottom: 16px
+}
+
+ul li a {
+  font-family: 'Righteous', cursive;
+}
+
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
+}
+
+form {
+  margin-bottom: 16px;
+}
+
+input {
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0px solid #32A873;
+  border-radius: 5px;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+  background: #32A873;
+  font-size: 16px;
+}
+
+input:hover {
+  background: #ED5151;
+  transition: 0.4s;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  margin-top: 16px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td {
+  font-size: 20px;
+}
+
+th {
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #32A873;
+  color: white;
 }
