@@ -47,7 +47,7 @@ class ColorExtraction:
         ky = np.sum(yp * y4) / (np.sum(yp) * sy ** 4)
 
         mean, stdev = cv2.meanStdDev(image)
-        other = [skx, sky, kx, ky, cx, cy]
+        other = [skx, sky, kx, ky]
         meanstd = np.concatenate([mean, stdev]).flatten()
         stats = np.concatenate([meanstd, other])
 

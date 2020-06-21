@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 data_path = './data/data.csv'
 dataset = pd.read_csv(data_path, header = None)
 
-X = dataset.iloc[:, 0:62].values
-y = dataset.iloc[:, 62].values
+X = dataset.iloc[:, 0:60].values
+y = dataset.iloc[:, 60].values
 
 # Creating the model
 from sklearn.svm import SVC
