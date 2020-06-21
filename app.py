@@ -67,7 +67,7 @@ def predict(file):
     # Color
     ce = ColorExtraction()
     color = ce.color_extraction(masked)
-    color_out = np.reshape(color, (1, 12))
+    color_out = np.reshape(color, (1, 10))
     color_out_df = pd.DataFrame(np.concatenate(color_out), index=None)
     #print(color_out_df.shape)
 
